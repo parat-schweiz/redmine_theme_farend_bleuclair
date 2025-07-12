@@ -21,6 +21,14 @@ $color-main-bg:     #ffffff;
   }
 }
 
+:root {
+  --fonts-main: "Montserrat", "Noto Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Alternates", "Noto Sans", sans-serif;
+}
+
 #main {
   background-color: $color-main-bg;
 }
