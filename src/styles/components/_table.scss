@@ -2,8 +2,8 @@ $table-head-cell-padding: 5px;
 $table-cell-padding:      4px;
 $line-height-base:        1.74;
 $line-height-computed:    25px;
-$color-table-border:      #dfe8f1;
-$color-th-bg:             #eff1f9;
+$color-table-border:      #fbd0f1;
+$color-th-bg:             #fde8f8;
 $color-odd-bg:            #f9f9f9;
 
 
@@ -72,7 +72,7 @@ table.list {
   }
 
   tbody > tr:hover {
-    background-color: #fff9c4;
+    background-color: #dddddd;
   }
 
   // Remove top border from thead by default

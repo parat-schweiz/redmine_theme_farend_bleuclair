@@ -1,5 +1,5 @@
-$color-top-menu-bg: #223342;
-$color-main-bg:     #fafcfe;
+$color-top-menu-bg: #5d094b;
+$color-main-bg:     #ffffff;
 
 #top-menu {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
@@ -9,7 +9,7 @@ $color-main-bg:     #fafcfe;
 }
 
 #header {
-  background: radial-gradient(circle at 1.98% 20.98%, #4b6cb7, transparent 100%), radial-gradient(circle at 98.02% 20.98%, #2e4063, transparent 100%), radial-gradient(circle at 50% 50%, #19c8b5, #19c8b5 100%);
+  background: #9e0f7f; 
   padding: 10px 30px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   color: white;
@@ -44,6 +44,53 @@ $color-main-bg:     #fafcfe;
   }
 }
 
+#main a, a:link, a:visited {
+  color: #9e0f7f;
+}
+
+#main svg.icon-svg {
+  stroke: #9e0f7f;
+}
+
+a.atom {
+  background: url("../../images/file-rss.svg") no-repeat 1px 50%;
+}
+
+#header .selection a:hover {
+  background: #f48add;
+}
+
+#footer {
+  display: none;
+}
+
+.badge-status-open {
+  color: #9e0f7f;
+  border: 1px solid #9e0f7f;
+}
+
+#sidebar a.selected {
+  background-color: #d214a9;
+}
+
+#wrapper .context-menu-selection {
+  background-color: #f48add !important;
+  color: #f8f8f8 !important;
+}
+
+tbody tr:hover {
+  background-color: #dddddd !important;
+  color: #f8f8f8 !important;
+}
+
+#quick-search svg.icon-svg {
+  stroke: #9e0f7f;
+}
+
+input[type="checkbox"] {
+  accent-color: #9e0f7f;
+}
+
 // Fix a problem that underlines is broken in chrome
 a:hover, a:active {
   outline: 1px solid transparent;
@@ -52,5 +99,19 @@ a:hover, a:active {
 @media screen and (max-width: 899px) {
   #content>.contextual>a, #content>.contextual .drdn, p.buttons a {
     background: #ffffff;
+  }
+
+  #header {
+    background: #9e0f7f !important;
+  }
+
+  .flyout-menu {
+    background: #d214a9 !important;
+  }
+
+  .flyout-menu h3 {
+    background: #a30f83 !important;
+    border-top: 1px solid #5d094b !important;
+    border-bottom: 1px solid #5d094b !important;
   }
 }

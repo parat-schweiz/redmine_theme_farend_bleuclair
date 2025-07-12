@@ -2,24 +2,24 @@ $input-padding: 4px 6px;
 $color-input-bg: #ffffff;
 $color-disabled-input-bg: #ebebe4;
 $color-input-text: #2b2f33;
-$color-input-border: #dfe8f1;
-$color-input-border-focus: #3da6ff;
+$color-input-border: #fbd0f1;
+$color-input-border-focus: #ee44c9;
 $color-validation-error-input-border: #bb0000;
 
 $color-submit-text: #ffffff;
-$color-submit-border: #34495e;
-$color-submit-bg: #34495e;
+$color-submit-border: #8c0d70;
+$color-submit-bg: #8c0d70;
 $color-submit-disabled-bg: #95a5a6;
-$color-submit-hover-border: #3f5872;
-$color-submit-hover-bg: #3f5872;
+$color-submit-hover-border: #9e0f7f;
+$color-submit-hover-bg: #9e0f7f;
 
 $color-button-text: #555a60;
-$color-button-border: #dfe8f1;
-$color-button-bg: #fefeff;
+$color-button-border: #fbd0f1;
+$color-button-bg: #fde8f8;
 $color-button-disabled-bg: #95a5a6;
 $color-button-hover-text: #2b2f33;
-$color-button-hover-border: #bfc8d1;
-$color-button-hover-bg: #f3f3f9;
+$color-button-hover-border: #ee44c9;
+$color-button-hover-bg: #fde8f8;
 
 $checkbox-size: 16px;
 $checkbox-margin: 7px 2px 7px 0px;
@@ -224,6 +224,12 @@ $checkbox-margin: 7px 2px 7px 0px;
   .pagination ul.pages li.previous, .pagination ul.pages li.next {
     background: $color-button-bg;
   }
+
+  .pagination ul.pages li.current {
+    color: white;
+    background-color: #8c0d70;
+    border-color: #8c0d70;
+  }
 }
 
 // Override text box font-family when lang is "ja" and not using proportional setting
@@ -267,7 +273,7 @@ form .attributes {
     }
   }
   li.select2-results__option--highlighted[role="option"][aria-selected] {
-    background-color: #759FC2;
+    background-color: #f58adc;
     color: #fff;
   }
 
